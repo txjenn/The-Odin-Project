@@ -1,0 +1,139 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    /* display:flex; */
+}
+
+nav {
+    margin: 10px;
+    height: 30px;
+    width: 100%;
+    align-items: center;
+}
+
+nav div.header2 {
+    float: right;
+}
+
+nav div a{
+    text-decoration: none;
+}
+
+.header{ 
+    float: left;
+}
+
+.header a, .header button{
+    margin: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.header button{
+    background: #e4e4e4;
+    padding: 8px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 10%;
+    font-weight: bold;
+}
+
+.header2{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: right;
+    font-family: Arial, sans-serif;
+    
+} 
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 20%;
+    padding-top: 200px;
+}
+
+.search_bar {
+    width: 500px;
+    height: 30px;
+    border-radius: 25px;
+    border: 2px solid #DEDADA;
+}
+
+.search_box {
+    display: flex;
+    justify-content: center;
+}
+
+.search_buttons {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"]{
+    
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+    color: #757575;
+    font-size: 13px;
+    font-weight: bold;
+    min-width: 54px;
+    padding: 7px 16px;
+    margin: 0 2px;
+    font-family: arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+li a {
+    text-decoration: none;
+    margin: 8px;
+}
+.footer {
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10px, 0;
+    
+    
+    
+}
+.rfoot {
+    float: right;
+    margin: 0px 22px;
+}
+
+.google-img {
+    position: relative;
+    image: url(logo.png);
+    background-size: 272px auto;
+    background-repeat: no-repeat;
+    height: 92px;
+    top: 175px;
+    display: table-cell;
+    text-align: -webkit-center;
+    vertical-align: bottom;
+    padding: 109px 0px 0px;
+    margin: 0 auto;
+    color: rgb(34, 34, 34);
+}
+
+
